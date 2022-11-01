@@ -2,17 +2,17 @@ const FeedbackData = [
   {
     id: 1,
     rating: 10,
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur vel vitae commodi alias voluptatem est voluptatum ipsa quae.',
+    text: 'Why is my build failing in the AWS build.',
   },
   {
     id: 2,
     rating: 9,
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur vel vitae commodi alias voluptatem est voluptatum ipsa quae.',
+    text: 'Is my Buildspec okay',
   },
   {
     id: 3,
     rating: 8,
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur vel vitae commodi alias voluptatem est voluptatum ipsa quae.',
+    text: 'what should I change maybe I got this all wrong',
   },
 ];
 export default FeedbackData;
