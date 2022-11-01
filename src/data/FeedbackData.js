@@ -12,7 +12,7 @@ const FeedbackData = [
   {
     id: 3,
     rating: 8,
-    text: 'what should I change maybe I got this all wrong',
+    text: 'what should I change maybe I got this all wrong !!!just chnged',
   },
 ];
 export default FeedbackData;
