@@ -6,7 +6,7 @@ function Card({ children, reverse }) {
     <div
       className="card"
       style={{
-        backgroundColor: reverse ? 'rgba(0,0,0,0.4)' : 'fff',
+        backgroundColor: reverse ? 'gba(0r,0,0,0.4)' : '#fff',
         color: reverse ? 'fff' : '#000',
       }}
     >
@@ -17,7 +17,7 @@ function Card({ children, reverse }) {
 Card.defaultProps = {
   reverse: false,
 };
-Card.PropTypes = {
+Card.propTypes = {
   children: PropTypes.node.isRequired,
   reverse: PropTypes.bool,
 };
