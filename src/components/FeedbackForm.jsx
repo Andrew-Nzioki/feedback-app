@@ -9,7 +9,7 @@ function FeedbackForm() {
         {/*rating select component*/}
         <div className="input-group">
           <input type="text" placeholder="Write your Review" />
-          <button></button>
+          <button type="submit">Send</button>
         </div>
       </form>
     </Card>
